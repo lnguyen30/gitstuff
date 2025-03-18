@@ -98,8 +98,17 @@
         <mxCell id="SdSyGjGMcFPpig5wSljq-1" value="" style="shape=mxgraph.cisco.switches.content_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1140" y="970" width="64" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="SdSyGjGMcFPpig5wSljq-2" value="" style="shape=mxgraph.cisco.servers.directory_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="SdSyGjGMcFPpig5wSljq-2" value="Domain Controller 1" style="shape=mxgraph.cisco.servers.directory_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="928" y="310" width="72" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="SdSyGjGMcFPpig5wSljq-3" value="Domain Controller 2&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.servers.directory_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="310" width="72" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="SdSyGjGMcFPpig5wSljq-4" value="Rawdataserver" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="488" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="SdSyGjGMcFPpig5wSljq-5" value="Dataserver (ECIS QA)" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="802" y="550" width="43" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
