@@ -12,12 +12,12 @@
         </mxCell>
         <mxCell id="1c7a67bf8fd3230f-38" style="edgeStyle=none;html=1;labelBackgroundColor=none;startFill=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Verdana;fontSize=12;" parent="1" target="1c7a67bf8fd3230f-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="968.329411764706" y="392" as="sourcePoint" />
+            <mxPoint x="990" y="420" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1c7a67bf8fd3230f-39" style="edgeStyle=none;html=1;labelBackgroundColor=none;startFill=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Verdana;fontSize=12;" parent="1" target="1c7a67bf8fd3230f-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1119.2352941176473" y="392" as="sourcePoint" />
+            <mxPoint x="1100" y="420" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1c7a67bf8fd3230f-40" style="edgeStyle=none;html=1;labelBackgroundColor=none;startFill=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Verdana;fontSize=12;" parent="1" target="1c7a67bf8fd3230f-5" edge="1">
@@ -98,10 +98,10 @@
         <mxCell id="SdSyGjGMcFPpig5wSljq-1" value="" style="shape=mxgraph.cisco.switches.content_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1140" y="970" width="64" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="SdSyGjGMcFPpig5wSljq-2" value="Domain Controller 1" style="shape=mxgraph.cisco.servers.directory_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="SdSyGjGMcFPpig5wSljq-2" value="Domain Controller 2&lt;div&gt;10.11.38.2&lt;/div&gt;" style="shape=mxgraph.cisco.servers.directory_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="928" y="310" width="72" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="SdSyGjGMcFPpig5wSljq-3" value="Domain Controller 2&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.servers.directory_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="SdSyGjGMcFPpig5wSljq-3" value="Domain Controller 3&lt;br&gt;10.11.38.3&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.servers.directory_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1084" y="310" width="72" height="59" as="geometry" />
         </mxCell>
         <mxCell id="SdSyGjGMcFPpig5wSljq-4" value="Rawdataserver" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
@@ -109,6 +109,24 @@
         </mxCell>
         <mxCell id="SdSyGjGMcFPpig5wSljq-5" value="Dataserver (ECIS QA)" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="802" y="550" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="SdSyGjGMcFPpig5wSljq-6" value="Production Server&lt;br&gt;10.11.38.6`" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="330" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="SdSyGjGMcFPpig5wSljq-8" value="Development Server&lt;br&gt;10.11.38.62" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="488" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="SdSyGjGMcFPpig5wSljq-9" value="V5-SN01-RPC" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="922" y="1275" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SdSyGjGMcFPpig5wSljq-10" value="V5-SN01-SPC" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="1275" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SdSyGjGMcFPpig5wSljq-11" style="edgeStyle=none;html=1;labelBackgroundColor=none;startFill=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" target="SdSyGjGMcFPpig5wSljq-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="1310" as="sourcePoint" />
+            <mxPoint x="1110.0016181229776" y="1483" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
